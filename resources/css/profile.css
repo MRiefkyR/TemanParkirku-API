@@ -1,0 +1,89 @@
+/* Profile Page Styles */
+
+.container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    border: none;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #4a90e2;
+    color: #fff;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.card-header a.btn {
+    background-color: #fff;
+    color: #4a90e2;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.card-header a.btn:hover {
+    background-color: #f0f0f0;
+    color: #4a90e2;
+}
+
+.card-body {
+    padding: 30px;
+    background-color: #f9f9f9;
+}
+
+.profile-section {
+    margin-bottom: 30px;
+}
+
+.profile-section h6 {
+    font-weight: 600;
+    color: #4a90e2;
+    margin-bottom: 10px;
+}
+
+.profile-section hr {
+    border-top: 2px solid #4a90e2;
+    width: 50px;
+}
+
+.form-label {
+    font-weight: 500;
+    color: #555;
+}
+
+.form-control-static {
+    font-weight: 600;
+    color: #333;
+}
+
+.btn-primary {
+    background-color: #4a90e2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #357ab8;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 576px) {
+    .card-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .card-header a.btn {
+        margin-top: 10px;
+    }
+}
