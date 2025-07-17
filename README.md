@@ -4,6 +4,9 @@
 ![PHP](https://img.shields.io/badge/PHP-8.1-blue)
 ![License](https://img.shields.io/github/license/MRiefkyR/TemanParkirku-API)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Last Commit](https://img.shields.io/github/last-commit/MRiefkyR/TemanParkirku-API)
+![Release](https://img.shields.io/github/v/release/MRiefkyR/TemanParkirku-API)
 
 TemanParkirku-API adalah backend RESTful API berbasis Laravel yang dikembangkan untuk mendukung sistem manajemen parkir digital, termasuk pencatatan data kendaraan, tarif, pembayaran parkir, serta integrasi pembayaran melalui Midtrans. API ini mendukung autentikasi menggunakan Laravel Sanctum dan dirancang untuk diintegrasikan dengan aplikasi mobile (Android).
 
